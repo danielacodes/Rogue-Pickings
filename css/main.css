@@ -1,0 +1,156 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 399px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 110px;
+}
+
+header h1 {
+  color: #77a466;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 45px;
+}
+
+header h1 span {
+  color: #000000;
+}
+
+nav {
+  float: right;
+  padding: 50px 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: #77a466;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+/***** ABOUT *****/
+#about {
+  height: 470px;
+}
+
+#about img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+  padding-top: 0;
+}
+
+#about h2{
+  color: #77a466;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+#about p{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/***** BOTTOM SECTION *****/
+
+#bottom-section div {
+  height: 210px;
+}
+
+#bottom-section h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+#bottom-section p {
+  font-size: 16px;
+  padding: 0 30px 30px 30px;
+  color: #555555;
+}
+
+/***** MENU *****/
+
+#menu {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+#menu ul li {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 25px;
+  list-style: none;
+}
+
+#menu ul {
+  padding-left: 30px;
+}
+
+/***** REVIEWS *****/
+
+#reviews {
+  border: 1px solid #dedbdc;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+/***** FOOTER *****/
+#footer {
+  clear: both;
+  height: 80px;
+}
+
+#footer p {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#footer p span {
+  color: #77a466;
+  text-transform: none;
+  font-family: 'Great Vibes', cursive;
+  font-size: 22px;
+}
